@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/css.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<h1>Biblioquiz</h1>
+
+	<div id="main">	
+
+		<input type="button" id="btn_show_all" value="Show all" class="hidden"/>
+		<input type="button" id="btn_review" value="Review" class="hidden"/>
+		<input type="button" id="btn_by_year" value="By year" class="hidden"/>
+		<input type="button" id="btn_by_author" value="By author" class="hidden"/>
+		<input type="button" id="btn_by_editorial" value="By editorial" class="hidden"/>
+		<input type="button" id="btn_by_name" value="By name" class="hidden"/>
+
+		<div id="contents">
+			<div id="question"></div>
+			<input type="button" id="btn_next" value="Next" class="hidden" />
+			<input type="button" id="btn_answer" value="Answer" class="hidden" />
+			<table id="items" class="hidden">
+				<thead>
+					<tr>
+						<th class="name">Author</th>
+						<th class="title">Title</th>
+						<th class="editorial">Editorial</th>
+						<th class="year">Year</th>
+					</tr>
+				</thead>
+				<tbody id="items_body"></tbody>
+			</table>
+		</div>
+
+	</div>
+	<div id="templates">
+		<table><tbody>
+		<tr class="list_item">
+			<td class="name"></td>
+			<td class="title"></td>
+			<td class="editorial"></td>
+			<td class="year"></td>
+		</tr>
+		</table></tbody>
+	</div>
+</body>
+<script src="js/biblioquiz.js"></script>
+</html>
