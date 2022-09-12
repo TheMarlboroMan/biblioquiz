@@ -50,3 +50,7 @@ A litle code to ask you about bibliography.
 }
 
 - If needed, use "renoir_engine" and add config values in the "configuracion" directory.
+
+# archiving
+
+The itch that was scratched by this repository was scratched in 2017 and never came back. This repository will be no longer updated.
